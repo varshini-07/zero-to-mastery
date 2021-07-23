@@ -1,0 +1,5 @@
+# operator precendence
+print(20-3*4)
+
+#  using BODMAS rule
+print((20-3)+2**2)
