@@ -1,5 +1,19 @@
-# operator precendence
+# operator precendence:
 print(20-3*4)
 
-#  using BODMAS rule
+#  using BODMAS rule:
 print((20-3)+2**2)
+
+# strings:
+long_string='''
+w o w
+o o
+_ _ _
+'''
+print(long_string)
+
+(string concatenation):
+first_name='varshini'
+last_name='suresh'
+full_name=first_name+' '+last_name
+print(full_name)
