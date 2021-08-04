@@ -1,10 +1,10 @@
-# operator precendence:
+# OPERATOR PRECEDENCE:
 print(20-3*4)
 
-#  using BODMAS rule:
+# BODMAS RULE:
 print((20-3)+2**2)
 
-# strings:
+# STRINGS:
 long_string='''
 w o w
 o o
@@ -12,8 +12,54 @@ _ _ _
 '''
 print(long_string)
 
-(string concatenation):
+(STRING CONCATENATION):
 first_name='varshini'
 last_name='suresh'
 full_name=first_name+' '+last_name
 print(full_name)
+
+# TYPE CONVERSION:
+str(100)
+print(str(100))
+print(type(int(str(100))))
+
+a=str(100)
+b=int(a)
+c=type(b)
+print(c)
+
+#FORMATTED STRINGS:
+name='john'
+age=18
+print('hi {}. you are {} years old'.format('john','18'))
+
+name='john'
+age=18
+print('hi{new_name}.you are{age} years old'.format(new_name="gilbert",age=19))
+
+#BUILT IN FUNCTIONS:
+print(len('heloooo'))
+
+greet='hellooo'
+print(greet[:])
+
+greet='helloooo'
+print(greet[0:5])
+
+quote='varshini'
+print(quote.upper())
+
+quote='to be or not to be'
+print(quote.find('be'))
+
+quote='to be or not to be'
+print(quote.replace('be','me'))
+
+quote='to be or not to be'
+print(quote.replace('be','me'))
+print(quote)
+
+quote='to be or not to be'
+quote 2=quote.replace('be','me')
+print(quotes 2)
+print(quote)
