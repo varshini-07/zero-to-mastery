@@ -1,0 +1,22 @@
+# BOOLEANS:
+name='xxx'
+is_cool=False  (#False=0,True=1)
+is_cool=True
+print(bool(1))
+
+name='xxxx'
+age='yyyy'
+relationship_status='single'
+relationship_status='Its\'s complicated'
+print(relationship_status)
+
+birth_year=input("what year were you born?")
+age=2019-birth_year
+print(f'your age is:{age}')
+
+birth_year=input("what year were you born"?)
+print(type(birth_year))
+
+birth_year=input("what year were you born?")
+age=2019-int(birth_year)
+print(f'your age is:{age}')
