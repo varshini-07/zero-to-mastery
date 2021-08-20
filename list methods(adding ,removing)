@@ -1,0 +1,49 @@
+ADDING:
+
+basket=[1,2,3,4,5]
+new_list=basket.append(100)        {#extend(5,100),insert(5,100)}
+print(basket)
+print(new_list)       #new_list is completely none coz append changes the list,doesnot produce a value
+
+#so,
+basket=[1,2,3,4,5]
+basket.append(100)
+new_list=basket
+print(basket)
+print(new_list)
+                 **********
+basket=[1,2,3,4,5]
+basket.insert(4,100)
+new_list=basket
+print(basket)
+print(new_list)
+               ************
+basket=[1,2,3,4,5]
+basket.extend([100,101])   #for extend,square bracket is imp.
+new_list=basket
+print(basket)
+print(new_list) 
+
+REMOVING:
+
+basket=[1,2,3,4,5]
+new_list=basket.extend([100])  
+basket.pop()   #when we add basket.pop()again, it will remove another last value.and basket.pop(0) is 2,3,4,5
+print(basket)
+
+basket=[1,2,3,4,5]
+new_list=basket.pop(4)
+print(basket)
+print(new_list) 
+                ************
+basket=[1,2,3,4,5]
+new_list=basket.extend([100])
+basket.remove(4)
+print(basket)      #if we print new_list like previous one,it will print none
+              ************
+basket=[1,2,3,4,5]
+basket.extend([100])
+new_list=basket.clear()
+print(new_list)   #if print(basket)is,[]
+
+
