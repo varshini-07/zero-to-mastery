@@ -1,0 +1,38 @@
+basket=['a','b','c','d','e']
+print(basket.index('d')]       #('d',0,4)
+            **********
+basket=['a','b','c','d','e']
+print('d'in basket)           #('&' in basket)where in is a keyword
+print('i'in'hi my name is Ian')
+           **********
+basket=['a','b','c','d','e']
+print(basket.count('d'))    #it will count the values
+           **********
+basket=['a','b','c','d','e']
+print(basket.sort())       #it will give us a none
+
+basket=['a','b','d','c','d','e']
+basket.sort()
+print(basket) 
+           OR
+basket=['a','x','b','c','d','e','d']
+print(sorted(basket))
+
+basket=['a','x','b','c','d','e','d']
+print(sorted(basket))
+print(basket)
+
+basket=['a','x','b','c','d','e','d']
+new_basket=basket[:]           #here [:] is copy()
+new_basket.sort()
+print(new_basket)
+print(basket)
+              ***********
+basket=['a','x','b','c','d','e','d']
+basket.reverse()
+print(basket)
+
+basket=['a','x','b','c','d','e','d']
+basket.sort()
+basket.reverse()
+print(basket)
